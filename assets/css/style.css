@@ -27,12 +27,11 @@ body {
 }
 
 .btn {
-  border: 1px solid;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: white;
-  outline: none;
+  background-color: white; 
+  border-radius: 10px;
+  border-color: white;
+  padding: 10px;
+  display: grid;
 }
 
 .btn:hover {
@@ -43,8 +42,12 @@ body {
 .start-btn, .next-btn {
   font-size: 1.5rem;
   font-weight: bold;
+  color: black;
+  border-color: white;
   padding: 10px 20px;
 }
+
+
 
 .controls {
   display: flex;

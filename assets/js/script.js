@@ -78,35 +78,76 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What movie ?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'I', correct: true },
+      { text: 'L', correct: false }
+      { text: 'U', correct: true }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What movie ?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What movie ?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Who is her co-star ...?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
     ]
   }
+  {
+    question: 'Who is her co-star ...?',
+    answers: [
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
+    ]
+  }
+  {
+    question: 'Who is her co-star in ...?',
+    answers: [
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
+    ]
+  }
+  {
+    question: 'Where does the line ... appear?',
+    answers: [
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
+    ]
+  }
+  {
+    question: 'Where does the line ... appear?',
+    answers: [
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
+    ]
+  }
+  {
+    question: 'Where does the line ... appear?',
+    answers: [
+        { text: 'I', correct: true },
+        { text: 'L', correct: false }
+        { text: 'U', correct: true }
+    ]
+  }
+
 ]
