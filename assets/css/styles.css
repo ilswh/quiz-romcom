@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 750 px;
+  max-width: 75%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: antiquewhite;
+  outline: none;
+}
+
+.btn:hover {
+  border-radius: 10px;
+}
+
+.start-btn, .next-btn {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
