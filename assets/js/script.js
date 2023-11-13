@@ -108,7 +108,7 @@ const questions = [
         { text: 'L', correct: false }
         { text: 'U', correct: true }
     ]
-  }
+  },
   {
     question: 'Who is her co-star ...?',
     answers: [
@@ -116,7 +116,7 @@ const questions = [
         { text: 'L', correct: false }
         { text: 'U', correct: true }
     ]
-  }
+  },
   {
     question: 'Who is her co-star in ...?',
     answers: [
@@ -124,7 +124,7 @@ const questions = [
         { text: 'L', correct: false }
         { text: 'U', correct: true }
     ]
-  }
+  },
   {
     question: 'Where does the line ... appear?',
     answers: [
@@ -132,7 +132,7 @@ const questions = [
         { text: 'L', correct: false }
         { text: 'U', correct: true }
     ]
-  }
+  },
   {
     question: 'Where does the line ... appear?',
     answers: [
@@ -140,7 +140,7 @@ const questions = [
         { text: 'L', correct: false }
         { text: 'U', correct: true }
     ]
-  }
+  },
   {
     question: 'Where does the line ... appear?',
     answers: [
