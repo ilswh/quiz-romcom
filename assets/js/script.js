@@ -81,7 +81,7 @@ const questions = [
     question: 'What movie ?',
     answers: [
       { text: 'I', correct: true },
-      { text: 'L', correct: false }
+      { text: 'L', correct: false },
       { text: 'U', correct: true }
     ]
   },
@@ -90,14 +90,14 @@ const questions = [
     answers: [
         { text: 'I', correct: true },
         { text: 'L', correct: false }
-        { text: 'U', correct: true }
+        { text: 'U', correct: true },
     ]
   },
   {
     question: 'What movie ?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -105,7 +105,7 @@ const questions = [
     question: 'Who is her co-star ...?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -113,7 +113,7 @@ const questions = [
     question: 'Who is her co-star ...?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -121,7 +121,7 @@ const questions = [
     question: 'Who is her co-star in ...?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -129,7 +129,7 @@ const questions = [
     question: 'Where does the line ... appear?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -137,7 +137,7 @@ const questions = [
     question: 'Where does the line ... appear?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   },
@@ -145,7 +145,7 @@ const questions = [
     question: 'Where does the line ... appear?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
+        { text: 'L', correct: false },
         { text: 'U', correct: true }
     ]
   }
