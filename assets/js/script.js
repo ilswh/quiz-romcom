@@ -89,8 +89,8 @@ const questions = [
     question: 'What movie ?',
     answers: [
         { text: 'I', correct: true },
-        { text: 'L', correct: false }
-        { text: 'U', correct: true },
+        { text: 'L', correct: false },
+        { text: 'U', correct: true }
     ]
   },
   {
