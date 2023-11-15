@@ -47,7 +47,9 @@ body {
   padding: 10px 20px;
 }
 
-
+.welcome  {
+  vertical-align: 50px;
+}
 
 .controls {
   display: flex;
