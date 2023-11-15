@@ -76,97 +76,163 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-const questions = [
-  {
+const questions = [{
     question: 'What movie ?',
-    answers: [
-      { text: 'I', correct: true },
-      { text: 'L', correct: false },
-      { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'What movie ?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'What movie ?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Who is her co-star ...?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Who is her co-star ...?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Who is her co-star in ...?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Where does the line ... appear?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Where does the line ... appear?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   },
   {
     question: 'Where does the line ... appear?',
-    answers: [
-        { text: 'I', correct: true },
-        { text: 'L', correct: false },
-        { text: 'U', correct: true }
+    answers: [{
+        text: 'I',
+        correct: true
+      },
+      {
+        text: 'L',
+        correct: false
+      },
+      {
+        text: 'U',
+        correct: true
+      }
     ]
   }
-  /**
- * Gets the current score from the DOM and increments it by 1
- */
-function incrementScore() {
 
-  let oldScore = parseInt(document.getElementById("score").innerText);
-  document.getElementById("score").innerText = ++oldScore;
+  function incrementScore() {
 
-}
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
 
-/**
-* Gets the current tally of incorrect answers from the DOM and increments it by 1
-*/
-function incrementWrongAnswer() {
+  }
 
-  let oldScore = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++oldScore;
-  
-}
+  function incrementWrongAnswer() {
+
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+
+  }
 
 ]
