@@ -48,7 +48,7 @@ body {
 }
 
 .welcome::after {
-  content: "Welcome to the quiz about rom-com movies with Julia Roberts!";
+  content: "\a";
   white-space: pre;
 }
 
