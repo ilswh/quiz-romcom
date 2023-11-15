@@ -47,9 +47,9 @@ body {
   padding: 10px 20px;
 }
 
-.welcome::after {
-  content: "\a";
-  white-space: pre;
+.welcome {
+  position: absolute;
+  top: 250px;
 }
 
 .controls {
