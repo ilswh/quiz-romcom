@@ -47,9 +47,9 @@ body {
   padding: 10px 20px;
 }
 
-.welcome  {
-  display: block;
-  width: fit-content;
+.welcome::after {
+  content: "Welcome to the quiz about rom-com movies with Julia Roberts!";
+  white-space: pre;
 }
 
 .controls {
