@@ -1,10 +1,10 @@
-const startButton = document.getElementById('start-btn')
-const nextButton = document.getElementById('next-btn')
-const questionContainerElement = document.getElementById('question-container')
-const questionElement = document.getElementById('question')
-const answerButtonsElement = document.getElementById('answer-buttons')
+const startButton = document.getElementById('start-btn');
+const nextButton = document.getElementById('next-btn');
+const questionContainerElement = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const answerButtonsElement = document.getElementById('answer-buttons');
 
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -18,12 +18,12 @@ function startGame() {
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
-}
+};
 
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
-}
+};
 
 function showQuestion(question) {
   questionElement.innerText = question.question
@@ -37,7 +37,7 @@ function showQuestion(question) {
     button.addEventListener('click', selectAnswer)
     answerButtonsElement.appendChild(button)
   })
-}
+};
 
 function resetState() {
   clearStatusClass(document.body)
@@ -45,7 +45,7 @@ function resetState() {
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
-}
+};
 
 function selectAnswer(e) {
   const selectedButton = e.target
@@ -60,7 +60,7 @@ function selectAnswer(e) {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }
-}
+};
 
 function setStatusClass(element, correct) {
   clearStatusClass(element)
@@ -69,12 +69,12 @@ function setStatusClass(element, correct) {
   } else {
     element.classList.add('wrong')
   }
-}
+};
 
 function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
-}
+};
 
 const questions = [{
     question: 'What movie ?',
@@ -222,10 +222,8 @@ const questions = [{
   }
 
   function incrementScore() {
-
     let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
-
   }
 
   function incrementWrongAnswer() {
