@@ -48,7 +48,8 @@ body {
 }
 
 .welcome  {
-  vertical-align: 50px;
+  display: block;
+  width: fit-content;
 }
 
 .controls {
