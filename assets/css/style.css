@@ -57,6 +57,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.score-area {
+  position: absolute;
+  bottom: 200px;
+}
 
 .hide {
   display: none;
