@@ -1,3 +1,4 @@
+/* general rules */
 *,
 *::before,
 *::after {
@@ -15,6 +16,7 @@ body {
   flex-direction: column;
 }
 
+/* conatainer with questions, answers and  scoreboard */
 .container {
   width: 800px;
   max-width: 80%;
@@ -24,6 +26,7 @@ body {
   box-shadow: 0 0 10px 2px;
 }
 
+/* buttons */
 .btn-grid {
   gap: 10px;
   margin: 20px 0;
@@ -41,7 +44,7 @@ body {
   border-color: black;
 }
 
-
+/* start and next button */
 .start-btn,
 .next-btn {
   font-size: 1.5rem;
@@ -51,7 +54,7 @@ body {
   padding: 10px 20px;
 }
 
-
+/* introduction text and start button */
 .controls {
   display: flex;
   justify-content: center;
@@ -59,7 +62,7 @@ body {
   flex-direction: column;
 }
 
-
+/* make invisible */
 .hide {
   display: none;
 }
