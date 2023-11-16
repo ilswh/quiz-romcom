@@ -16,6 +16,7 @@ nextButton.addEventListener('click', () => {
   setNextQuestion();
 });
 
+// function to be able to start game
 function startGame() {
   startButton.classList.add('hide');
   welcome.classList.add('hide');
@@ -27,11 +28,13 @@ function startGame() {
   setNextQuestion();
 }
 
+// what happens when someone clicks next
 function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
+// shows a question
 function showQuestion(question) {
   questionElement.innerText = question.question;
   question.answers.forEach(answer => {
@@ -46,6 +49,7 @@ function showQuestion(question) {
   });
 }
 
+// resets to default when moving on to new question
 function resetState() {
   clearStatusClass(document.body);
   nextButton.classList.add('hide');
@@ -54,6 +58,7 @@ function resetState() {
   }
 }
 
+// what happens when someone selects an answer
 function selectAnswer(e) {
   const selectedButton = e.target;
   const isCorrect = selectedButton.dataset.correct;
@@ -74,6 +79,7 @@ function selectAnswer(e) {
   }
 }
 
+// tells computer know what to do after finding out if a answer is correct/wrong
 function setStatusClass(button, isCorrect) {
   clearStatusClass(button);
   if (isCorrect) {
@@ -88,6 +94,7 @@ function clearStatusClass(button) {
   button.classList.remove('wrong');
 }
 
+// questions and arrays with options
 const questions = [{
     question: 'What movie ?',
     answers: [{
@@ -234,6 +241,7 @@ const questions = [{
   }
 ];
 
+// scoreboard
 function incrementScore() {
   let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
