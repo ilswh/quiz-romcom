@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- for search engines -->
   <meta name="description" content="Quiz about rom-com movies with Julia Roberts.">
   <meta name="keywords" content="quiz, rom-com, Julia Roberts">
+  <!-- link to stylesheet -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- title -->
   <title>Quiz Julia Roberts movies</title>
 </head>
-
+<!-- body -->
 <body>
+  <!-- introduction text -->
   <div class="controls">
     <p class="welcome" id="welcome">Welcome to the quiz about rom-com movies with Julia Roberts!</p>
     <br>
+    <!-- start button -->
     <button id="start-btn" class="start-btn btn">START!</button>
   </div>
+  <!-- options and question -->
   <div class="container hide" id="container">
     <div id="question-container" class="hide">
       <div id="question">Question</div>
@@ -26,13 +32,14 @@
         <button class="btn">Answer 3</button>
       </div>
     </div>
-
+    <!-- score area -->
     <div class="score-area hide" id="score-area">
       <button id="next-btn" class="next-btn btn hide">Next</button>
       <p class="scores">Correct Answers <span id="score">0</span></p>
       <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
   </div>
+  <!-- link to javascript file -->
   <script src="assets/js/script.js"></script>
 </body>
 
