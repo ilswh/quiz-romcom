@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: serif;
 }
@@ -10,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: antiquewhite;
+  flex-direction: column;
 }
 
 .container {
@@ -27,7 +30,7 @@ body {
 }
 
 .btn {
-  background-color: white; 
+  background-color: white;
   border-radius: 10px;
   border-color: white;
   padding: 10px;
@@ -39,7 +42,8 @@ body {
 }
 
 
-.start-btn, .next-btn {
+.start-btn,
+.next-btn {
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
@@ -47,20 +51,14 @@ body {
   padding: 10px 20px;
 }
 
-.welcome {
-  position: absolute;
-  top: 200px;
-}
 
 .controls {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.score-area {
-  position: absolute;
-  bottom: 200px;
-}
+
 
 .hide {
   display: none;
