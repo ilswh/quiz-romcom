@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-/* conatainer with questions, answers and  scoreboard */
+/* container with questions, answers and  scoreboard */
 .container {
   width: 800px;
   max-width: 80%;
