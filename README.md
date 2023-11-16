@@ -1,14 +1,10 @@
 # [QUIZ ROMCOM](https://ilswh.github.io/quiz-romcom)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+I have made a quiz about romcom-movies starring Julia Roberts.
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+I hope that this quiz will bring back some happy memories, ... and a sense of accomplishment.
+The quiz is targetet towards romcom-nerds or even just trivia-lovers.
+My hope is that it will be useful for these people just by reminding them of something that makes them happy.
 
 Consider adding a mockup image using the "Am I Responsive" website.
 Here's your deployed site as an example:
@@ -26,85 +22,20 @@ Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `d
 Find out more about using Markdown elements here:
 https://pandao.github.io/editor.md/en.html
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ## UX
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+My design process started with a sketch on paper with pen. A quite simple one. And as I had a bit time, I decided to add a scoreboard and welcoming text before entering the game.
 
 ### Colour Scheme
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
+I chose black and white for clarity and antique white as a background color to create a warmth that exist i romantic movies.
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+As font I chose serif because of my preference and have somewhat of a book-feeling.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## Wireframes
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section, display your wireframe screenshots using a Markdown `table`.
 Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
@@ -120,76 +51,8 @@ You MUST remove these spaces for it to work properly on your own README/TESTING 
 Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
 for the Mobile, Tablet, and Desktop wireframes.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
-### Mobile Wireframes
-
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
-
-< / details >
-
-### Tablet Wireframes
-
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
-
-< / details >
-
-### Desktop Wireframes
-
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
 
 ## Features
 
