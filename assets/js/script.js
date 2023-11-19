@@ -282,9 +282,7 @@ const questions = [{
           {
             text: 'The Holiday',
             correct: false
-          }
-        ]
-      }       
+          }    
     ]
   }
 ];
