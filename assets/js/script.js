@@ -96,62 +96,110 @@ function clearStatusClass(button) {
 
 // questions and arrays with options
 const questions = [{
-    question: 'What movie ?',
+    question: 'In what movie is Julia playing Maggie Carpenter?',
     answers: [{
-        text: 'I',
+        text: 'Sweet Home Alabama',
         correct: false
       },
       {
-        text: 'L',
+        text: 'Pretty Woman',
         correct: false
       },
       {
-        text: 'U',
+        text: 'Runaway Bride',
         correct: true
       }
     ]
   },
   {
-    question: 'What movie ?',
+    question: 'In what movie is Roberts playing Vivian Ward?',
     answers: [{
-        text: 'I',
+        text: 'Americas Sweethearts',
         correct: false
       },
       {
-        text: 'L',
-        correct: false
-      },
-      {
-        text: 'U',
-        correct: true
-      }
-    ]
-  },
-  {
-    question: 'What movie ?',
-    answers: [{
-        text: 'I',
+        text: 'Pretty Woman',
         correct: true
       },
       {
-        text: 'L',
-        correct: false
-      },
-      {
-        text: 'U',
+        text: 'When Harry Met Sally',
         correct: false
       }
     ]
   },
   {
-    question: 'Who is her co-star ...?',
+    question: 'In what movie is JR playing Anna Scott?',
     answers: [{
-        text: 'I',
+        text: 'Notting Hill',
         correct: true
       },
       {
-        text: 'L',
+        text: 'Kate & Leopold',
         correct: false
+      },
+      {
+        text: 'Youve got mail',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'What actor is her best friend in My Best Friends Wedding?',
+    answers: [{
+        text: 'Rupert Everett',
+        correct: true
+      },
+      {
+        text: 'Cameron Diaz',
+        correct: false
+      },
+      {
+        text: 'Paul Giamatti',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'Who is her co-star and leading man in Notting Hill?',
+    answers: [{
+        text: 'Hugh Grant',
+        correct: true
+      },
+      {
+        text: 'Rhys Ifans',
+        correct: false
+      },
+      {
+        text: 'James Dreyfus',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'Who is her co-star, best friend and ex-boyfriends wife in Runaway Bride?',
+    answers: [{
+        text: 'Rita Wilson',
+        correct: false
+      },
+      {
+        text: 'Joan Cusack',
+        correct: true
+      },
+      {
+        text: 'Kathleen Marshall',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'Where does the line "I want the the fairytale." appear?',
+    answers: [{
+        text: 'I',
+        correct: false
+      },
+      {
+        text: 'L',
+        correct: true
       },
       {
         text: 'U',
@@ -160,7 +208,7 @@ const questions = [{
     ]
   },
   {
-    question: 'Who is her co-star ...?',
+    question: 'Where does the line ... appear?',
     answers: [{
         text: 'I',
         correct: true
@@ -168,22 +216,6 @@ const questions = [{
       {
         text: 'L',
         correct: false
-      },
-      {
-        text: 'U',
-        correct: false
-      }
-    ]
-  },
-  {
-    question: 'Who is her co-star in ...?',
-    answers: [{
-        text: 'I',
-        correct: false
-      },
-      {
-        text: 'L',
-        correct: true
       },
       {
         text: 'U',
@@ -199,44 +231,60 @@ const questions = [{
       },
       {
         text: 'L',
-        correct: true
-      },
-      {
-        text: 'U',
-        correct: false
-      }
-    ]
-  },
-  {
-    question: 'Where does the line ... appear?',
-    answers: [{
-        text: 'I',
-        correct: true
-      },
-      {
-        text: 'L',
-        correct: false
-      },
-      {
-        text: 'U',
-        correct: false
-      }
-    ]
-  },
-  {
-    question: 'Where does the line ... appear?',
-    answers: [{
-        text: 'I',
-        correct: false
-      },
-      {
-        text: 'L',
         correct: false
       },
       {
         text: 'U',
         correct: true
-      }
+      },
+      {
+        question: 'Who directed her in ...?',
+        answers: [{
+            text: 'I',
+            correct: true
+          },
+          {
+            text: 'L',
+            correct: false
+          },
+          {
+            text: 'U',
+            correct: false
+          }
+        ]
+      },
+      {
+        question: 'Who directed her in ...?',
+        answers: [{
+            text: 'I',
+            correct: true
+          },
+          {
+            text: 'L',
+            correct: false
+          },
+          {
+            text: 'U',
+            correct: false
+          }
+        ]
+      },
+      {
+        question: 'Who directed her in ...?',
+        answers: [{
+            text: 'I',
+            correct: true
+          },
+          {
+            text: 'L',
+            correct: false
+          },
+          {
+            text: 'U',
+            correct: false
+          }
+        ]
+      }       
     ]
   }
 ];
