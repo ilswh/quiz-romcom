@@ -128,7 +128,7 @@ const questions = [{
     ]
   },
   {
-    question: 'In what movie is JR playing Anna Scott?',
+    question: 'In what movie is she acting as Anna Scott?',
     answers: [{
         text: 'Notting Hill',
         correct: true
@@ -144,7 +144,7 @@ const questions = [{
     ]
   },
   {
-    question: 'What actor is her best friend in My Best Friends Wedding?',
+    question: 'What actor is her real best friend in My Best Friends Wedding?',
     answers: [{
         text: 'Rupert Everett',
         correct: true
@@ -238,7 +238,7 @@ const questions = [{
         correct: true
       },
       {
-        question: 'For which movie did Bill Crystal and Peter Tolan write the screenplay of the movie in which Julia starrs?',
+        question: 'For which movie did Bill Crystal and Peter Tolan write the screenplay of the movie where Julia starrs?',
         answers: [{
             text: 'Americas Sweethearts',
             correct: true
@@ -254,7 +254,7 @@ const questions = [{
         ]
       },
       {
-        question: 'For which movie did Josann Mcgibbon & Sara Pariott write the screenplay of the movie in Roberts starrs?',
+        question: 'For which movie did Josann Mcgibbon & Sara Pariott write the screenplay of the movie where Roberts starrs?',
         answers: [{
             text: 'Runaway Child',
             correct: false
