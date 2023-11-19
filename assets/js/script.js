@@ -192,95 +192,95 @@ const questions = [{
     ]
   },
   {
-    question: 'Where does the line "I want the the fairytale." appear?',
+    question: 'In which movie does Roberts line "I want the the fairytale." appear?',
     answers: [{
-        text: 'I',
+        text: 'Moonstruck',
         correct: false
       },
       {
-        text: 'L',
+        text: 'Pretty Woman',
         correct: true
       },
       {
-        text: 'U',
+        text: 'To All The Boys I Have Ever Loved',
         correct: false
       }
     ]
   },
   {
-    question: 'Where does the line ... appear?',
+    question: 'In which movie does Roberts line "Choose Me. M-marry me." appear?',
     answers: [{
-        text: 'I',
+        text: 'My Best Friends Wedding',
         correct: true
       },
       {
-        text: 'L',
+        text: 'Breakfast at Tiffanys',
         correct: false
       },
       {
-        text: 'U',
+        text: 'Bridget Jones Diary',
         correct: false
       }
     ]
   },
   {
-    question: 'Where does the line ... appear?',
+    question: 'In which movie starring Julia Roberts and Hugh Grant, does the line "Whoopsidaisies!" appear?',
     answers: [{
-        text: 'I',
+        text: 'Bridget Jones Diary',
         correct: false
       },
       {
-        text: 'L',
+        text: 'The Gentlemen',
         correct: false
       },
       {
-        text: 'U',
+        text: 'Notting Hill',
         correct: true
       },
       {
-        question: 'Who directed her in ...?',
+        question: 'For which movie did Bill Crystal and Peter Tolan write the screenplay of the movie in which Julia starrs?',
         answers: [{
-            text: 'I',
+            text: 'Americas Sweethearts',
             correct: true
           },
           {
-            text: 'L',
+            text: 'Hollywoods Sweethearts',
             correct: false
           },
           {
-            text: 'U',
+            text: 'States Sweethearts',
             correct: false
           }
         ]
       },
       {
-        question: 'Who directed her in ...?',
+        question: 'For which movie did Josann Mcgibbon & Sara Pariott write the screenplay of the movie in Roberts starrs?',
         answers: [{
-            text: 'I',
-            correct: true
-          },
-          {
-            text: 'L',
+            text: 'Runaway Child',
             correct: false
           },
           {
-            text: 'U',
+            text: 'Runaway Bride',
+            correct: true
+          },
+          {
+            text: 'Runaway Wild',
             correct: false
           }
         ]
       },
       {
-        question: 'Who directed her in ...?',
+        question: 'Which Julia Roberts movie did Richard Curtis write and Roger Curtis direct?',
         answers: [{
-            text: 'I',
+            text: 'Notting Hill',
             correct: true
           },
           {
-            text: 'L',
+            text: 'Love Actually',
             correct: false
           },
           {
-            text: 'U',
+            text: 'The Holiday',
             correct: false
           }
         ]
