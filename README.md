@@ -60,6 +60,8 @@ I have five features. First is the startbutton and the introduction. Secondly is
 
 ### Future Features
 
+- Radio unordered list
+    - Put the options of the arrays from each question in and unordered list and radio buttons, so it becomes more clear which option the user has chosen.
 - Questions based on a picture
     - Instead of a question, a picture or screenshot of the movie will be shown and the user gets to guess which movie the picture is from.
 - Book-browser before entering the game
