@@ -12,7 +12,7 @@ let shuffledQuestions, currentQuestionIndex;
 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
-
+currentQuestionIndex++;
   setNextQuestion();
 });
 
