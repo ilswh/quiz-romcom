@@ -6,21 +6,9 @@ I hope that this quiz will bring back some happy memories, ... and a sense of ac
 The quiz is targetet towards romcom-nerds or even just trivia-lovers.
 My hope is that it will be useful for these people just by reminding them of something that makes them happy.
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
 https://ui.dev/amiresponsive?url=https://ilswh.github.io/quiz-romcom
 
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
 ![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
 ## UX
 
@@ -37,33 +25,9 @@ As font I chose serif because of my preference and have the cozyness of a book.
 
 ## Wireframes
 
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
 ## Features
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
+I have five features. First is the startbutton and the introduction. Secondly is the quiz that consist of 12 questions which each has 3 options. Thirdly is the next-button which takes you to a new question.  Fourth is the scoreboard that keeps track of how many right and wrong answers the user have made.. The fifth feature is the restart feature
 
 IMPORTANT: Remember to always include a screenshot of each individual feature!
 
@@ -72,52 +36,47 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 - **Introduction with start-button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This is the introduction the the site and it gives the option to start the quiz.
 
 ![screenshot](documentation/feature01.png)
 
 - **Quiz**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The quiz is the main content and of biggest value of the site. The quiz is what is suppose to capture the interest of the user and make the romcom-fan intrigued.
 
 ![screenshot](documentation/feature02.png)
 
 - **Next-button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The next button makes it possible for the user to move on to the next question.
 
 ![screenshot](documentation/feature03.png)
 
-Repeat as necessary for as many features as your site contains.
+- **Scoreboard**
 
-Hint: the more, the merrier!
+    - Shows the user if they answered correct or wrong and keeps count of how many correct answers and how many wrong answer you have made.
+
+![screenshot](documentation/feature03.png)
+
+- **Restart**
+
+    - Shows the user if they answered correct or wrong and keeps count of how many correct answers and how many wrong answer you have made.
+
+![screenshot](documentation/feature03.png)
 
 ### Future Features
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
 - Questions based on a picture
-    - Any additional notes about this feature.
+    - Instead of a question, a picture or screenshot of the movie will be shown and the user gets to guess which movie the picture is from.
 - Book-browser before entering the game
-    - When clicking start you see a browsing of a book happening with pictures and text with J.R's rom-com characters
+    - When clicking start you see a browsing of a book happening with pictures and text with J.R's rom-com characters.
 - Funny set-stories
-    - Any additional notes about this feature.
+    - In the nav-bar there will be a option to click on set-stories and there will you can read small anecdotes with funny things that happend on set.
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
@@ -202,27 +161,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 
 ### Media
 
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+
 
 ### Acknowledgements
 
