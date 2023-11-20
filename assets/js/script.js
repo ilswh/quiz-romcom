@@ -236,53 +236,55 @@ const questions = [{
       {
         text: 'Notting Hill',
         correct: true
+      }
+    ]
+  },
+  {
+    question: 'For which movie did Bill Crystal and Peter Tolan write the screenplay of the movie where Julia starrs?',
+    answers: [{
+        text: 'Americas Sweethearts',
+        correct: true
       },
       {
-        question: 'For which movie did Bill Crystal and Peter Tolan write the screenplay of the movie where Julia starrs?',
-        answers: [{
-            text: 'Americas Sweethearts',
-            correct: true
-          },
-          {
-            text: 'Hollywoods Sweethearts',
-            correct: false
-          },
-          {
-            text: 'States Sweethearts',
-            correct: false
-          }
-        ]
+        text: 'Hollywoods Sweethearts',
+        correct: false
       },
       {
-        question: 'For which movie did Josann Mcgibbon & Sara Pariott write the screenplay of the movie where Roberts starrs?',
-        answers: [{
-            text: 'Runaway Child',
-            correct: false
-          },
-          {
-            text: 'Runaway Bride',
-            correct: true
-          },
-          {
-            text: 'Runaway Wild',
-            correct: false
-          }
-        ]
+        text: 'States Sweethearts',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'For which movie did Josann Mcgibbon & Sara Pariott write the screenplay of the movie where Roberts starrs?',
+    answers: [{
+        text: 'Runaway Child',
+        correct: false
       },
       {
-        question: 'Which Julia Roberts movie did Richard Curtis write and Roger Curtis direct?',
-        answers: [{
-            text: 'Notting Hill',
-            correct: true
-          },
-          {
-            text: 'Love Actually',
-            correct: false
-          },
-          {
-            text: 'The Holiday',
-            correct: false
-          }    
+        text: 'Runaway Bride',
+        correct: true
+      },
+      {
+        text: 'Runaway Wild',
+        correct: false
+      }
+    ]
+  },
+  {
+    question: 'Which Julia Roberts movie did Richard Curtis write and Roger Curtis direct?',
+    answers: [{
+        text: 'Notting Hill',
+        correct: true
+      },
+      {
+        text: 'Love Actually',
+        correct: false
+      },
+      {
+        text: 'The Holiday',
+        correct: false
+      }
     ]
   }
 ];
