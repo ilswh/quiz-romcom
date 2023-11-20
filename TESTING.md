@@ -59,11 +59,11 @@ I have tested the site on mobile, tablet and desktop screens. Below are attached
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Start | Quiz | Next | Scoreboard | Restart | Notes |
+| Device | Start | Quiz | Next & Scoreboard | Restart | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | --- | --- | --- | --- | --- | --- |
-| Tablet (DevTools) | --- | --- | --- | --- | --- | --- |
-| Desktop (Devtools) | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/iphone-start.png) | ![screenshot](documentation/iphone-quiz.png) | ![screenshot](documentation/iphone-next.png) | ![screenshot](documentation/iphone-restart.png) | --- |
+| Tablet (DevTools) | ![screenshot](documentation/ipad-start.png) | ![screenshot](documentation/ipad-quiz.png) | ![screenshot](documentation/ipad-next.png) | ![screenshot](documentation/ipad-restart.png) | --- |
+| Desktop (Devtools) | ![screenshot](documentation/desktop-start.png) | ![screenshot](documentation/desktop-quiz.png) | ![screenshot](documentation/desktop-next.png) | ![screenshot](documentation/desktop-restart.png) | --- |
 
 ## Lighthouse Audit
 
@@ -76,7 +76,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| index | --- | --- | --- |
+| index | ![screenshot](documentation/lighthouse-mobile.png) | ![screenshot](documentation/lighthouse-desktop.png) | --- |
 
 ## Bugs
 
@@ -99,17 +99,6 @@ Make sure to include any necessary steps you've implemented to fix the bug(s) as
     - To fix this, I _____________________.
 
 ## Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
 
 - On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
 
