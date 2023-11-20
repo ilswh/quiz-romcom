@@ -76,9 +76,6 @@ Sample Lighthouse testing documentation:
 
 ## Bugs
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
-
 It's very important to document any bugs you've discovered while developing the project.
 Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
 
@@ -93,6 +90,12 @@ Make sure to include any necessary steps you've implemented to fix the bug(s) as
 ## Unfixed Bugs
 
 - When restarting the game it does not zero the correct and wrong answers. I want that to happen.
+
+    ![screenshot](documentation/unfixed-bug01.png)
+
+    - Attempted fix: I had no remaining time to attempt to fix this.
+
+ - The restart button is to close to the container.
 
     ![screenshot](documentation/unfixed-bug01.png)
 
