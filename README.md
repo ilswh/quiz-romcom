@@ -18,6 +18,11 @@ My design process started with a sketch on paper with pen. A quite simple one. A
 
 I chose black and white for clarity and antique white as a background color to create a warmth that exist i romantic movies.
 
+![screenshot](documentation/colors.png)
+
+https://coolors.co/faebd7-ffffff-000000
+
+
 ### Typography
 
 As font I chose serif because of my preference and have the cozyness of a book.
