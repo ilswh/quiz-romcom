@@ -27,7 +27,7 @@ As font I chose serif because of my preference and have the cozyness of a book.
 
 ## Features
 
-I have five features. First is the startbutton and the introduction. Secondly is the quiz that consist of 12 questions which each has 3 options. Thirdly is the next-button which takes you to a new question.  Fourth is the scoreboard that keeps track of how many right and wrong answers the user have made.. The fifth feature is the restart feature
+I have five features. First is the startbutton and the introduction. Secondly is the quiz that consist of 12 questions which each has 3 options. Thirdly is the next-button which takes you to a new question.  Fourth is the scoreboard that keeps track of how many right and wrong answers the user have made.. The fifth feature is the restart feature which becomes availble after going through all 12 questions.
 
 IMPORTANT: Remember to always include a screenshot of each individual feature!
 
@@ -60,7 +60,7 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 - **Restart**
 
-    - Shows the user if they answered correct or wrong and keeps count of how many correct answers and how many wrong answer you have made.
+    - Appears for the user to restart the game after finishing all 12 questions.
 
 ![screenshot](documentation/feature05.png)
 
