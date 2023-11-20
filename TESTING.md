@@ -21,42 +21,25 @@ You are not required to validate external libraries/frameworks, such as imported
 
 ### HTML
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. Below is the attached the link with a screenshot.
 
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https%3A%2F%2Filswh.github.io%2Fquiz-romcom%2Findex.html
-
-Sample HTML code validation documentation (tables are extremely helpful!):
-
-| Page | W3C URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| Start | --- | --- | --- |
-| Quiz | --- | --- | --- |
-| Next |  --- | --- | --- |
-| Scoreboard |  --- | --- | --- |
-| Restart |  --- | --- | --- |
+https://validator.w3.org/nu/?doc=https%3A%2F%2Filswh.github.io%2Fquiz-romcom%2F
+![screenshot](documentation/feature.png)
 
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files. Below is the attached the link with a screenshot.
 
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Filswh.github.io%2Fquiz-romcom
+ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Filswh.github.io%2Fquiz-romcom%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
+![screenshot](documentation/feature.png)
 
 ### JavaScript
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+Below is attached screenshots.
 
+![screenshot](documentation/feature.png)
+![screenshot](documentation/feature.png)
 
 ## Browser Compatibility
 
@@ -66,41 +49,18 @@ I have tested the site in chrome, safari and firefox.
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
 - [Safari](https://support.apple.com/downloads/safari)
 
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Start | Quiz | Next | Scoreboard | Restart | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![Chrome] | --- | --- | --- | --- | --- | --- |
-| ![Firefox] | --- | --- | --- | --- | --- | --- |
-| ![Safari] | --- | --- | --- | --- | --- | --- |
+| ![Chrome] |  | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
+| ![Firefox] | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
+| ![Safari] | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
 
 
 ## Responsiveness
 
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
+I have tested the site on mobile, tablet and desktop screens. Below are attached screenshots.
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
@@ -108,7 +68,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | --- | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | --- | --- | --- | --- | --- | --- |
 | Tablet (DevTools) | --- | --- | --- | --- | --- | --- |
-| Laptop (Devtools) | --- | --- | --- | --- | --- | --- |
+| Desktop (Devtools) | --- | --- | --- | --- | --- | --- |
 
 
 ## Lighthouse Audit
