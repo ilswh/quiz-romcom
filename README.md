@@ -56,13 +56,13 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
     - Shows the user if they answered correct or wrong and keeps count of how many correct answers and how many wrong answer you have made.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature04.png)
 
 - **Restart**
 
     - Shows the user if they answered correct or wrong and keeps count of how many correct answers and how many wrong answer you have made.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature05.png)
 
 ### Future Features
 
