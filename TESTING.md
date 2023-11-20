@@ -37,6 +37,8 @@ Sample HTML code validation documentation (tables are extremely helpful!):
 | Start | --- | --- | --- |
 | Quiz | --- | --- | --- |
 | Next |  --- | --- | --- |
+| Scoreboard |  --- | --- | --- |
+| Restart |  --- | --- | --- |
 
 ### CSS
 
@@ -74,11 +76,11 @@ Sample browser testing documentation:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Start | Quiz | Next | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| ![Chrome] | --- | --- | --- | --- | --- |
-| ![Firefox] | --- | --- | --- | --- | --- |
-| ![Safari] | --- | --- | --- | --- | --- |
+| Browser | Start | Quiz | Next | Scoreboard | Restart | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![Chrome] | --- | --- | --- | --- | --- | --- |
+| ![Firefox] | --- | --- | --- | --- | --- | --- |
+| ![Safari] | --- | --- | --- | --- | --- | --- |
 
 
 ## Responsiveness
@@ -102,11 +104,11 @@ Sample responsiveness testing documentation:
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Start | Quiz | Next | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | --- | --- | --- | --- | --- |
-| Tablet (DevTools) | --- | --- | --- | --- | --- |
-| Laptop (Devtools) | --- | --- | --- | --- | --- |
+| Device | Start | Quiz | Next | Scoreboard | Restart | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | --- | --- | --- | --- | --- | --- |
+| Tablet (DevTools) | --- | --- | --- | --- | --- | --- |
+| Laptop (Devtools) | --- | --- | --- | --- | --- | --- |
 
 
 ## Lighthouse Audit
@@ -128,6 +130,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Start | --- | --- | --- |
 | Quiz | --- | --- | --- |
 | Next | --- | --- | --- |
+| Scoreboard | --- | --- | --- |
+| Restart | --- | --- | --- |
 
 ## Bugs
 
