@@ -53,6 +53,9 @@ function showQuestion(question) {
 function resetState() {
   clearStatusClass(document.body);
   nextButton.classList.add('hide');
+  Array.from(answerButtonsElement.children).forEach(button => {
+    button.classList.remove("disable");
+  });
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild);
   }
@@ -69,6 +72,7 @@ function selectAnswer(e) {
     incrementWrongAnswer();
   }
   Array.from(answerButtonsElement.children).forEach(button => {
+    button.classList.add("disable");
     setStatusClass(button, button.dataset.correct);
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
