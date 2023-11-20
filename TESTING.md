@@ -34,7 +34,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 Below is attached screenshots.
 
-![screenshot] (documentation/javascript-validation-script.png)
+![screenshot](documentation/javascript-validation-script.png)
 ![screenshot](documentation/javascript-validation-questions.png)
 
 ## Browser Compatibility
@@ -47,12 +47,11 @@ I have tested the site in chrome, safari and firefox.
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Start | Quiz | Next | Scoreboard | Restart | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| ![Chrome] |  | ![screenshot](documentation/chrome-start.png) | ![screenshot](documentation/chrome-quiz.png) | ![screenshot](documentation/chrome-next.png) | ![screenshot](documentation/chrome-scoreboard.png) | ![screenshot](documentation/chrome-restart.png) |
+| Browser | Start | Quiz | Next | Scoreboard | Restart |
+| --- | --- | --- | --- | --- | --- |
+| ![Chrome] | ![screenshot](documentation/chrome-start.png) | ![screenshot](documentation/chrome-quiz.png) | ![screenshot](documentation/chrome-next.png) | ![screenshot](documentation/chrome-scoreboard.png) | ![screenshot](documentation/chrome-restart.png) |
 | ![Firefox] | ![screenshot](documentation/firefox-start.png) | ![screenshot](documentation/firefox-quiz.png) | ![screenshot](documentation/firefox-next.png) | ![screenshot](documentation/firefox-scoreboard.png) | ![screenshot](documentation/firefox-restart.png) |
 | ![Safari] | ![screenshot](documentation/safari-start.png) | ![screenshot](documentation/safari-quiz.png) | ![screenshot](documentation/safari-next.png) | ![screenshot](documentation/safari-scoreboard.png) | ![screenshot](documentation/safari-restart.png) |
-
 
 ## Responsiveness
 
@@ -65,7 +64,6 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Mobile (DevTools) | --- | --- | --- | --- | --- | --- |
 | Tablet (DevTools) | --- | --- | --- | --- | --- | --- |
 | Desktop (Devtools) | --- | --- | --- | --- | --- | --- |
-
 
 ## Lighthouse Audit
 
@@ -88,35 +86,15 @@ but feel free to use this section to document any HTML/CSS bugs you might run in
 It's very important to document any bugs you've discovered while developing the project.
 Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
-
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- JS 
 
     ![screenshot](documentation/bug01.png)
 
     - To fix this, I _____________________.
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+- JS 
 
     ![screenshot](documentation/bug02.png)
-
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bug04.png)
 
     - To fix this, I _____________________.
 
@@ -150,8 +128,6 @@ Some examples:
     ![screenshot](documentation/unfixed-bug03.png)
 
     - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
 
