@@ -76,22 +76,13 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
 Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
 
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
 Sample Lighthouse testing documentation:
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Start | --- | --- | --- |
-| Quiz | --- | --- | --- |
-| Next | --- | --- | --- |
-| Scoreboard | --- | --- | --- |
-| Restart | --- | --- | --- |
+| index | --- | --- | --- |
 
 ## Bugs
 
