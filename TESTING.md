@@ -60,23 +60,19 @@ I have tested the site on mobile, tablet and desktop screens. Below are attached
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Start | Quiz | Next & Scoreboard | Restart | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/iphone-start.png) | ![screenshot](documentation/iphone-quiz.png) | ![screenshot](documentation/iphone-next.png) | ![screenshot](documentation/iphone-restart.png) | --- |
 | Tablet (DevTools) | ![screenshot](documentation/ipad-start.png) | ![screenshot](documentation/ipad-quiz.png) | ![screenshot](documentation/ipad-next.png) | ![screenshot](documentation/ipad-restart.png) | --- |
 | Desktop (Devtools) | ![screenshot](documentation/desktop-start.png) | ![screenshot](documentation/desktop-quiz.png) | ![screenshot](documentation/desktop-next.png) | ![screenshot](documentation/desktop-restart.png) | --- |
 
 ## Lighthouse Audit
 
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 Sample Lighthouse testing documentation:
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-
-| Page | Mobile | Desktop | Notes |
-| --- | --- | --- | --- |
-| index | ![screenshot](documentation/lighthouse-mobile.png) | ![screenshot](documentation/lighthouse-desktop.png) | --- |
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| index | ![screenshot](documentation/lighthouse-mobile.png) | ![screenshot](documentation/lighthouse-desktop.png) |
 
 ## Bugs
 
@@ -88,36 +84,18 @@ Make sure to include any necessary steps you've implemented to fix the bug(s) as
 
 - JS 
 
-    ![screenshot](documentation/bug01.png)
-
     - To fix this, I _____________________.
 
 - JS 
-
-    ![screenshot](documentation/bug02.png)
 
     - To fix this, I _____________________.
 
 ## Unfixed Bugs
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
+- When restarting the game it does not zero the correct and wrong answers. I want that to happen.
 
     ![screenshot](documentation/unfixed-bug01.png)
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    - Attempted fix: I had no remaining time to attempt to fix this.
 
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-There are no remaining bugs that I am aware of.
+There are no more bugs that I am aware of.
