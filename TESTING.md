@@ -15,31 +15,27 @@ with the project providing an easy and straightforward way for the users to achi
 Use the space to discuss code validation for any of your own code files (where applicable).
 You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
 
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. Below is the attached the link with a screenshot.
 
 https://validator.w3.org/nu/?doc=https%3A%2F%2Filswh.github.io%2Fquiz-romcom%2F
-![screenshot](documentation/feature.png)
+![screenshot](documentation/html-validation.png)
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files. Below is the attached the link with a screenshot.
 
  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Filswh.github.io%2Fquiz-romcom%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
-![screenshot](documentation/feature.png)
+![screenshot](documentation/css-validation.png)
 
 ### JavaScript
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 Below is attached screenshots.
 
-![screenshot](documentation/feature.png)
-![screenshot](documentation/feature.png)
+![screenshot] (documentation/javascript-validation-script.png)
+![screenshot](documentation/javascript-validation-questions.png)
 
 ## Browser Compatibility
 
@@ -53,9 +49,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Start | Quiz | Next | Scoreboard | Restart | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| ![Chrome] |  | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
-| ![Firefox] | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
-| ![Safari] | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) | ![screenshot](documentation/feature.png) |
+| ![Chrome] |  | ![screenshot](documentation/chrome-start.png) | ![screenshot](documentation/chrome-quiz.png) | ![screenshot](documentation/chrome-next.png) | ![screenshot](documentation/chrome-scoreboard.png) | ![screenshot](documentation/chrome-restart.png) |
+| ![Firefox] | ![screenshot](documentation/firefox-start.png) | ![screenshot](documentation/firefox-quiz.png) | ![screenshot](documentation/firefox-next.png) | ![screenshot](documentation/firefox-scoreboard.png) | ![screenshot](documentation/firefox-restart.png) |
+| ![Safari] | ![screenshot](documentation/safari-start.png) | ![screenshot](documentation/safari-quiz.png) | ![screenshot](documentation/safari-next.png) | ![screenshot](documentation/safari-scoreboard.png) | ![screenshot](documentation/safari-restart.png) |
 
 
 ## Responsiveness
