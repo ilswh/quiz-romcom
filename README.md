@@ -22,15 +22,9 @@ I chose black and white for clarity and antique white as a background color to c
 
 As font I chose serif because of my preference and have the cozyness of a book.
 
-
-## Wireframes
-
 ## Features
 
 I have five features. First is the startbutton and the introduction. Secondly is the quiz that consist of 12 questions which each has 3 options. Thirdly is the next-button which takes you to a new question.  Fourth is the scoreboard that keeps track of how many right and wrong answers the user have made.. The fifth feature is the restart feature which becomes availble after going through all 12 questions.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
 
 ### Existing Features
 
@@ -132,10 +126,6 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-### Local VS Deployment
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
 ## Credits
 
 In this section you need to reference where you got your content, media, and extra help from.
@@ -156,19 +146,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-
-### Media
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
 
 
 ### Acknowledgements
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.

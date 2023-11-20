@@ -49,9 +49,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Start | Quiz | Next | Scoreboard | Restart |
 | --- | --- | --- | --- | --- | --- |
-| ![Chrome] | ![screenshot](documentation/chrome-start.png) | ![screenshot](documentation/chrome-quiz.png) | ![screenshot](documentation/chrome-next.png) | ![screenshot](documentation/chrome-scoreboard.png) | ![screenshot](documentation/chrome-restart.png) |
-| ![Firefox] | ![screenshot](documentation/firefox-start.png) | ![screenshot](documentation/firefox-quiz.png) | ![screenshot](documentation/firefox-next.png) | ![screenshot](documentation/firefox-scoreboard.png) | ![screenshot](documentation/firefox-restart.png) |
-| ![Safari] | ![screenshot](documentation/safari-start.png) | ![screenshot](documentation/safari-quiz.png) | ![screenshot](documentation/safari-next.png) | ![screenshot](documentation/safari-scoreboard.png) | ![screenshot](documentation/safari-restart.png) |
+| Chrome | ![screenshot](documentation/chrome-start.png) | ![screenshot](documentation/chrome-quiz.png) | ![screenshot](documentation/chrome-next.png) | ![screenshot](documentation/chrome-scoreboard.png) | ![screenshot](documentation/chrome-restart.png) |
+| Firefox | ![screenshot](documentation/firefox-start.png) | ![screenshot](documentation/firefox-quiz.png) | ![screenshot](documentation/firefox-next.png) | ![screenshot](documentation/firefox-scoreboard.png) | ![screenshot](documentation/firefox-restart.png) |
+| Safari | ![screenshot](documentation/safari-start.png) | ![screenshot](documentation/safari-quiz.png) | ![screenshot](documentation/safari-next.png) | ![screenshot](documentation/safari-scoreboard.png) | ![screenshot](documentation/safari-restart.png) |
 
 ## Responsiveness
 
