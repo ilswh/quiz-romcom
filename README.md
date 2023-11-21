@@ -151,7 +151,7 @@ however, it is important to be very specific about these sources to avoid plagia
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [Youtube] | https://www.youtube.com/watch?v=riDzcEQbX6k | entire site | how to make a javascript quiz |
+| [Youtube] https://www.youtube.com/watch?v=riDzcEQbX6k | entire site | how to make a javascript quiz |
 
 
 
