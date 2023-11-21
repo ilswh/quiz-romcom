@@ -76,17 +76,6 @@ Sample Lighthouse testing documentation:
 
 ## Bugs
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
-
-- JS 
-
-    - To fix this, I _____________________.
-
-- JS 
-
-    - To fix this, I _____________________.
-
 ## Unfixed Bugs
 
 - When restarting the game it does not zero the correct and wrong answers. I want that to happen.
