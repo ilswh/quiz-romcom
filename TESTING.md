@@ -74,17 +74,16 @@ Sample Lighthouse testing documentation:
 | --- | --- | --- |
 | index | ![screenshot](documentation/lighthouse-mobile.png) | ![screenshot](documentation/lighthouse-desktop.png) |
 
-## Bugs
 
 ## Unfixed Bugs
 
-- When restarting the game it does not zero the correct and wrong answers. I want that to happen.
+- When restarting the game it does not zero the correct and wrong answers. See below in attached screenshot how it has calculated 7 wrong answers and 7 correct answers, totally 14. When there is only 12 questions. I want it to zero both correct and wrong after answering all 12 questions. 
 
     ![screenshot](documentation/unfixed-bug01.png)
 
     - Attempted fix: I had no remaining time to attempt to fix this.
 
- - The restart button is to close to the container.
+ - The restart button is to close to the container. See below in attached screenshot. I would also like for it to be bigger when it does appear. 
 
     ![screenshot](documentation/unfixed-bug01.png)
 
