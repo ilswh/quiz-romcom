@@ -12,7 +12,11 @@ https://ui.dev/amiresponsive?url=https://ilswh.github.io/quiz-romcom
 
 ## UX
 
-My design process started with a sketch on paper with pen. A quite simple one. And as I had a bit time, I decided to add a scoreboard and welcoming text before entering the game.
+My design process started with a sketch on paper with pen. A quite simple one. 
+
+![screenshot](documentation/wireframe.png)
+
+And as I had a bit time, I decided to add a scoreboard and welcoming text before entering the game.
 
 ### Colour Scheme
 
